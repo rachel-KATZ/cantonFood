@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vue.js"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Canton Food Map</title>
+    <style>
+       
+    </style>
+
+    
+</head>
+<body>
+    <div id="app">
+        <div id="mapBox">
+            <!-- <img class="mapEle" id="mapBg" src="map.png" alt="" srcset=""> -->
+            <!-- <svg class="mapEle" id="map" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1729 1000">
+                
+                <title>map</title>
+                <polyline class="cls-1" points="1729 28.19 1210 28.19 822 261.19 0 261.19"/>
+                <circle @click="foodClick" id="food1" class="cls-2" cx="822" cy="261.19" r="32.58"/>
+                <circle @click="foodClick" id="food2" class="cls-3" cx="1201" cy="28.19" r="28.19"/>
+            </svg> -->
+            <?xml version="1.0" encoding="utf-8"?>
+
+<svg version="1.1" id="map" class="mapEle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1245 940" style="enable-background:new 0 0 1245 940;" xml:space="preserve">
+
+<image style="display:block;overflow:visible;" width="2048" height="1536" xlink:href="./map.png"  transform="matrix(0.6079 0 0 0.6079 0 0)">
+</image>
+<polyline class="st0" points="62,585 199,460 390,460 423,490 596,492 596,603 965,611 1027,668 1183,668 "/>
+<path class="st1" d="M-69,281"/>
+<polyline class="st1" points="386,934 440,882 440,835 368,762 376,378 570,189 "/>
+<polyline class="st2" points="230,183 230,211 292,272 292,734 921,734 "/>
+<line class="st2" x1="696" y1="460" x2="696" y2="688"/>
+<polyline class="st3" points="564,10 564,194.8 654,292 654,555 654,922 "/>
+<polyline class="st3" points="792,372 792,553 654,553 "/>
+<polyline class="st4" points="37,397 115,479 115,564 152,607 518,613 518,381 812,381 853,341 1213,346 "/>
+<polyline class="st5" points="184,728 190,553 750,553 750,427 654,427 "/>
+<polyline class="st6" points="989,528 927,592 921,767 1083,934 "/>
+<circle @click="foodClick" id="food1" class="foodBtn st7" cx="140.5" cy="594.5" r="12"/>
+<circle @click="foodClick" id="food2" class="foodBtn st7" cx="515.5" cy="610.5" r="12"/>
+<circle @click="foodClick" id="food3" class="foodBtn st7" cx="519.5" cy="491.5" r="12"/>
+<circle @click="foodClick" id="food4" class="foodBtn st7" cx="921.5" cy="344.5" r="12"/>
+<circle @click="foodClick" id="food5" class="foodBtn st8" cx="291.5" cy="715.5" r="12"/>
+<circle @click="foodClick" id="food6" class="foodBtn st8" cx="291.5" cy="397.5" r="12"/>
+<circle @click="foodClick" id="food7" class="foodBtn st8" cx="695.5" cy="470.5" r="12"/>
+<circle @click="foodClick" id="food8" class="foodBtn st8" cx="772.5" cy="734.5" r="12"/>
+<circle @click="foodClick" id="food9" class="foodBtn st7" cx="457.5" cy="610.5" r="12"/>
+<circle @click="foodClick" id="food10" class="foodBtn st9" cx="440.5" cy="857.5" r="12"/>
+<circle @click="foodClick" id="food11" class="foodBtn st10" cx="653.5" cy="604.5" r="12"/>
+<circle @click="foodClick" id="food12" class="foodBtn st11" cx="594.5" cy="555.5" r="12"/>
+<circle @click="foodClick" id="food13" class="foodBtn st11" cx="594.5" cy="494.5" r="12"/>
+<circle @click="foodClick" id="food14" class="foodBtn st11" cx="1172.5" cy="668.5" r="12"/>
+<circle @click="foodClick" id="food15" class="foodBtn st12" cx="987.5" cy="528.5" r="12"/>
+<circle @click="foodClick" id="food16" class="foodBtn st10" cx="769.5" cy="552.5" r="12"/>
+<circle @click="foodClick" id="food17" class="foodBtn st10" cx="563.5" cy="176.5" r="12"/>
+<circle @click="foodClick" id="food18" class="foodBtn st12" cx="971.5" cy="820.5" r="12"/>
+</svg>
+
+        </div>
+
+<!-- 
+        <div id="mainTitle">
+            <img id="titleImg"  src="titleImg.png"  alt="">
+        </div> -->
+        
+        <div id="foods">
+            
+            <div  v-if="'food'+i===foodIndex" v-for="(food,i) of foods" :key="food.name" class="food" >
+                <div><button @click="foodIndex = null">X</button></div>
+                <h4>{{food.name}}</h4>
+                <!-- <h5>FOTIAOQIANG</h5> -->
+                <img class="foodImg" :src="'./img/'+[i+1]+'.jpg'" alt="">
+                <p class="desc">
+                    {{food.desc}}
+                </p>
+            </div>
+    
+    
+    
+    
+        </div>
+    
+        
+    
+        <img id="trainImg" src="train.png" alt="">
+        <img src="img/deco1.png" id="deco1" alt="" class="deco">
+        <img src="img/deco2.png" alt="" class="deco" id="deco2">
+        <img src="img/deco2.png" alt="" class="deco" id="deco3">
+        <div class="kv">
+            <!-- <p class="foodItem" v-for="(food,i) of foods" :key="food">{{food.name}}</p> -->
+        </div>
+    </div>
+</body>
+</html>

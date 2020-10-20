@@ -1,0 +1,24 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1729 293.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ed1c24;
+        stroke-miterlimit: 10;
+        stroke-width: 12px;
+      }
+
+      .cls-2 {
+        fill: #fbb03b;
+      }
+
+      .cls-3 {
+        fill: #f0f;
+      }
+    </style>
+  </defs>
+  <title>map</title>
+  <polyline class="cls-1" points="1729 28.19 1210 28.19 822 261.19 0 261.19"/>
+  <circle id="food2" class="cls-2" cx="822" cy="261.19" r="32.58"/>
+  <circle id="food1" class="cls-3" cx="1201" cy="28.19" r="28.19"/>
+</svg>

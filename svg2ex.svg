@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1177.48" height="925.44" viewBox="0 0 1177.48 925.44">
+  <defs>
+    <style>
+      .a, .b, .c, .d, .e, .f, .g {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .a {
+        stroke: red;
+      }
+
+      .b {
+        stroke: blue;
+      }
+
+      .c {
+        stroke: aqua;
+      }
+
+      .d {
+        stroke: #f7931e;
+      }
+
+      .e {
+        stroke: #bd35ff;
+      }
+
+      .f {
+        stroke: #f1ff3f;
+      }
+
+      .g {
+        stroke: #17ff3f;
+      }
+
+      .h {
+        fill: #662d91;
+      }
+
+      .i {
+        fill: #15c7ff;
+      }
+
+      .j {
+        fill: #13008a;
+      }
+
+      .k {
+        fill: #c15e12;
+      }
+
+      .l {
+        fill: #ab0000;
+      }
+
+      .m {
+        fill: #00764b;
+      }
+    </style>
+  </defs>
+  <title>svg2ex</title>
+  <polyline class="a" points="26.45 575 163.45 450 354.45 450 387.45 480 560.45 482 560.45 593 929.45 601 991.45 658 1147.45 658"/>
+  <path class="b" d="M-69,281" transform="translate(-35.55 -10)"/>
+  <polyline class="b" points="350.45 924 404.45 872 404.45 825 332.45 752 340.45 368 534.45 179"/>
+  <polyline class="c" points="194.45 173 194.45 201 256.45 262 256.45 724 885.45 724"/>
+  <line class="c" x1="660.45" y1="450" x2="660.45" y2="678"/>
+  <polyline class="d" points="528.45 0 528.45 184.84 618.45 282 618.45 545 618.45 912"/>
+  <polyline class="d" points="756.45 362 756.45 543 618.45 543"/>
+  <polyline class="e" points="1.45 387 79.45 469 79.45 554 116.45 597 482.45 603 482.45 371 776.45 371 817.45 331 1177.45 336"/>
+  <polyline class="f" points="148.45 718 154.45 543 714.45 543 714.45 417 618.45 417"/>
+  <polyline class="g" points="953.45 518 891.45 582 885.45 757 1047.45 924"/>
+  <circle class="h" cx="104.95" cy="584.5" r="6.5"/>
+  <circle class="h" cx="479.95" cy="600.5" r="6.5"/>
+  <circle class="h" cx="483.95" cy="481.5" r="6.5"/>
+  <circle class="h" cx="885.95" cy="334.5" r="6.5"/>
+  <circle class="i" cx="255.95" cy="705.5" r="6.5"/>
+  <circle class="i" cx="255.95" cy="387.5" r="6.5"/>
+  <circle class="i" cx="659.95" cy="460.5" r="6.5"/>
+  <circle class="i" cx="736.95" cy="724.5" r="6.5"/>
+  <circle class="h" cx="421.95" cy="600.5" r="6.5"/>
+  <circle class="j" cx="404.95" cy="847.5" r="6.5"/>
+  <circle class="k" cx="617.95" cy="594.5" r="6.5"/>
+  <circle class="l" cx="558.95" cy="545.5" r="6.5"/>
+  <circle class="l" cx="558.95" cy="484.5" r="6.5"/>
+  <circle class="l" cx="1136.95" cy="658.5" r="6.5"/>
+  <circle class="m" cx="951.95" cy="518.5" r="6.5"/>
+  <circle class="k" cx="733.95" cy="542.5" r="6.5"/>
+  <circle class="k" cx="527.95" cy="166.5" r="6.5"/>
+  <circle class="m" cx="935.95" cy="810.5" r="6.5"/>
+</svg>
